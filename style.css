@@ -39,6 +39,7 @@ header {
     display: flex;
     width: 540px;
     height: 39px;
+
 }
 
 .mid-section input {
@@ -48,6 +49,15 @@ header {
     padding-left: 19px;
     font-weight: normal;
     font-size: 16px;
+}
+
+.mid-section input:focus {
+    border: 1px solid;
+    border-color: #D3D3D3;
+    /*   changes border color   */
+    border-radius: 20px 0 0 20px;
+    outline: none;
+
 }
 
 .mid-section button {
