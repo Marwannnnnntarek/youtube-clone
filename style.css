@@ -53,11 +53,9 @@ header {
 
 .mid-section input:focus {
     border: 1px solid;
-    border-color: #D3D3D3;
-    /*   changes border color   */
+    border-color: blue;
     border-radius: 20px 0 0 20px;
     outline: none;
-
 }
 
 .mid-section button {
@@ -71,10 +69,6 @@ header {
     background-color: #F8F8F8;
 }
 
-.mid-section button:hover {
-    background-color: #f0f0f0;
-    border-color: #c6c6c6;
-}
 
 .material-symbols-outlined.search {
     color: #0F0F0F;
@@ -95,4 +89,47 @@ header {
     cursor: pointer;
 }
 
+.material-symbols-outlined.mic:hover {
+    background-color: #f0f0f0;
+    border-color: #c6c6c6;
+}
+
 /* Right Section */
+.right-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.create-button {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #D3D3D3;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #f0f0f0;
+}
+
+.right-section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F9F9F9;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.right-section a:hover {
+    background-color: #f0f0f0;
+    border-color: #c6c6c6;
+}
