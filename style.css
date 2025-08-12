@@ -71,6 +71,11 @@ header {
     background-color: #F8F8F8;
 }
 
+.mid-section button:hover {
+    background-color: #f0f0f0;
+    border-color: #c6c6c6;
+}
+
 .material-symbols-outlined.search {
     color: #0F0F0F;
     font-variation-settings:
@@ -89,3 +94,5 @@ header {
     margin-left: 8px;
     cursor: pointer;
 }
+
+/* Right Section */
