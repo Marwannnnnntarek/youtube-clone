@@ -29,6 +29,22 @@ header {
     padding-left: 16px;
 }
 
+.left-section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F9F9F9;
+    margin-left: 8px;
+}
+
+.left-section a:hover {
+    background-color: #f0f0f0;
+    border-color: #c6c6c6;
+}
+
 /* Mid Section */
 .mid-section {
     display: flex;
